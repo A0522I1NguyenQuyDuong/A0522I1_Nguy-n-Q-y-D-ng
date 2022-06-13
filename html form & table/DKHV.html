@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="taoformdongian.css">
+    <title>Tạo form đơn giản</title>
+</head>
+<body>
+<table>
+    <div class="heading">
+         <h2>Đăng kí học viên</h2> 
+    </div>
+    <form class="form">
+        <tr>
+         <td class="t1">Họ và tên</td>
+         <td><input class="name" type="text"></td>
+        </tr>
+        <tr>
+            <td class="t1">Ngày sinh</td>
+            <td><input class="mail" type="text"></td>
+           </tr>
+        <tr>
+        
+            <td class="t1">Gioi tính</td>
+            <td class="t2"><input type="radio" name="Nam">Nam
+            <input type="radio" name="nữ">nữ</td>
+        </tr>
+        <tr>
+            <td class="t1">Địa chỉ</td>
+            <td class="t3"><input type="text"></td>
+        </tr>
+       <div>
+           <td class="t1">Lớp</td>
+           <td><select name="Lớp" id="class">
+               <option value="-Chọn lớp-">-Chọn lớp-</option>
+               <option value="">1</option>
+               <option value="">2</option>
+               <option value="">3</option>
+               <option value="">4</option>
+           </select></td>
+       </div>
+       <tr>
+        <td class="t1">Email</td>
+        <td><input class="name" type="text"></td>
+       </tr>
+       <tr>
+        <td class="t1">Điệ thoại</td>
+        <td><input class="name" type="text"></td>
+       </tr>
+       <tr>
+        <td></td>
+        <td>
+         <p><input type = "button" name="btSubmit" value="Đăng kí"/>&nbsp;<input type="button" name="btSubmit" value="Nhập lại"></p>
+        </td>
+    </tr>
+            
+        </tr>
+    </form>
+  
+</table>
+<style>
+    .heading{
+    background-color: aquamarine;
+    width: 500px;
+}
+.heading h2{
+    color: blue;
+    margin-left: 143px;
+}
+.table{
+    margin-left: 70px;
+}
+.t1{
+    color: blue;
+}
+.t2{
+    color: orange;
+}
+.t3 input{
+width: 161px;
+height: 50px;
+}
+</style>
+</body>
+</html>
