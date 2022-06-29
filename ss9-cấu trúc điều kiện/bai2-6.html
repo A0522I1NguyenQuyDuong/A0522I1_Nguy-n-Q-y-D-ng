@@ -7,13 +7,14 @@
     <title>Document</title>
 </head>
 <body>
-    <h3>Phương trình ax + b = 0 có :</h3>
-    <input type="text" placeholder="Nhập a" id="a">
-    <input type="text" placeholder="Nhập b" id="b">
-    <button onclick="giaiphuongtrinh()">Kết quả</button><br>
-    <p id="result"></p>
+    <form>
+        <input type="text" id="a" value=""/> <br/>
+         <input type="text" id="b" value=""/> <br/>
+        <span id="result"></span> <br/>
+        <input type="button" id="giaiBtn" value="Kết quả"/>
+    </form>
     <script>
-        var button = document.getElementById('giaiBtn');
+        var button = document.getElementById('giaiphuongtrinh');
         giaiBtn.onclick = function(){
             let a = document.getElementById('a').value;
             let b = document.getElementById('b').value;
