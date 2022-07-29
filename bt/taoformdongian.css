@@ -1,0 +1,17 @@
+.heading{
+    background-color: red;
+    width: 500px;
+}
+.heading h2{
+    color: white;
+    margin-left: 143px;
+}
+.table{
+    margin-left: 70px;
+}
+.t1{
+    color: blue;
+}
+.t2{
+    color: orange;
+}

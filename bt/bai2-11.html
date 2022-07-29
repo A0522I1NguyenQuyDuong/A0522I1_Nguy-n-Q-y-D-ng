@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var a = parseInt(prompt("Nhập thu nhập (triệu đồng):"));
+        if (0 < a) {
+            if ( a <= 5) {
+                document.writeln("Số tiền thuế TNCN: " + (a * 5 / 100) + " Triệu đồng");
+            } else if (a <= 10) {
+                document.writeln("Số tiền thuế TNCN: " + (0.25 + a * 10 / 100) + " Triệu đồng");
+            } else if (a <= 18) {
+                document.writeln("Số tiền thuế TNCN: " + (0.75 + a * 15 / 100) + " Triệu đồng");
+            } else if (a <= 32) {
+                document.writeln("Số tiền thuế TNCN: " + (1.95 + a * 20 / 100) + " Triệu đồng");
+            } else if (a <= 52) {
+                document.writeln("Số tiền thuế TNCN: " + (4,75 + a * 25 / 100) + " Triệu đồng");
+            } else if (a <= 80) {
+                document.writeln("Số tiền thuế TNCN: " + (9.75 + a * 30 / 100) + " Triệu đồng");
+            } else {
+                document.writeln("Số tiền thuế TNCN: " + (18,15 + a * 35 / 100) + " Triệu đồng");
+            }
+        } else {
+            document.writeln("Nhập lại số tiền lương lớn hơn 0");
+        }
+    </script>
+</body>
+</html>

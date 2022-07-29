@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+            var keyword = prompt('Nhập từ tiếng anh');
+    var str = keyword.toString();
+    var NA = ['o', 'u', 'i', 'a', 'e' ];
+    var PA = ['O', 'U', 'I', 'A', 'E'];
+    for (i=0;i<NA.length;i++) {
+        if (keyword === NA[i]) {
+            document.write("Nguyên âm");
+            break;
+        } else if (keyword === PA[i]) {
+            document.write("Phụ âm");
+            break;
+        }else{
+            document.write("Not found");
+        }
+    }
+    </script>
+</body>
+</html>

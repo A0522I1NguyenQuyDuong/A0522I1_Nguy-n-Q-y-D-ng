@@ -1,0 +1,18 @@
+.t1{
+    margin-left: 450px;
+    margin-top: 50px;
+}
+table{
+    margin-left: 130px;
+}
+.t2, th{
+    width: 100px;
+    height: 60px;
+}
+.t3, th{
+    size: 20px;
+}
+.t4, td{
+     width: 100px;
+    height: 60px;
+}

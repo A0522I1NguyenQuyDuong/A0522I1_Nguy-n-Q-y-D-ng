@@ -1,0 +1,15 @@
+.W{
+ background-color: white;
+ width: 100px;
+ height: 100px;
+}
+.B{
+    background-color: black;
+    width: 100px;
+    height: 100px;
+}
+table{
+    border-collapse: collapse;
+    background-color: yellow;
+    font-size: x-large;
+}
